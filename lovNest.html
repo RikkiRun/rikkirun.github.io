@@ -6,9 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- add icon -->
+    <div w3-include-html="index.html"></div>
     <link rel = "icon" href="" >
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+		<style >
+		@media screen and (min-width: 737px) {
+		.zoom_img1 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+		}
+		.zoom_img1 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+
+		}
+		.zoom_img2 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+			transform-origin: left;
+			-moz-transform-origin: left;
+			-webkit-transform-origin: left;
+			-o-transform-origin: left;
+			-ms-transform-origin: left;
+		}
+		.zoom_img2 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+
+		}
+		.zoom_img3 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+			transform-origin: right;
+			-moz-transform-origin: right;
+			-webkit-transform-origin: right;
+			-o-transform-origin: right;
+			-ms-transform-origin: right;
+		}
+		.zoom_img3 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+		}
+		}
+		</style>
   </head>
-  <body>
-    <img style='height: 100%; width:100%; object-fit: auto' src="images/lovnest_all.jpg">
+
+  <body class="is-preload">
+
+    <!-- Header -->
+      <div id="header">
+
+        <div class="top">
+
+          <!-- Logo -->
+            <div id="logo">
+              <a href="#top">
+              <span class="image avatar72 zoom_img1"><img src="images/resizeIcon.jpg" alt="" /></span></a>
+              <h1 id="title">Rong Zhuang</h1>
+              <p>Salt Lake City, UT</p>
+            </div>
+
+          <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li><a href="index.html#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
+                <li><a href="index.html#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+                <li><a href="index.html#projects" id="portfolio-link"><span class="icon fa-code">Projects</span></a></li>
+                <li><a href="index.html#games" id="game-link"><span class="icon fa-gamepad">Games</span></a></li>
+                <li><a href="index.html#creativity" id="creativity-link"><span class="icon fa-lightbulb-o">Creative Tech</span></a></li>
+                <li><a href="index.html#more" id="more-link"><span class="icon fa-plus">More</span></a></li>
+                <li><a href="index.html#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+                <!--
+                <li><a href="#funny" id="funny-link"><span class="icon fa-question-circle">Unexpected Page</li> -->
+              </ul>
+            </nav>
+
+        </div>
+
+        <div class="bottom">
+
+          <!-- Social Icons -->
+            <ul class="icons">
+              <li><a href="https://www.linkedin.com/in/rong-zhuang/" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
+              <li><a href="https://github.com/RikkiRun" class="icon fa-github"><span class="label">Github</span></a></li>
+              <li><a href="mailto:rikki.zhuang@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+
+        </div>
+      </div>
+      <div id="main">
+
+				<!-- Intro -->
+					<section>
+						<div class="container">
+
+              <p aligns="middle">
+              <img style='height: 100%; width:100%; object-fit: auto' src="images/lovnest_all.jpg">
+            </p>
+
+						</div>
+					</section>
+
   </body>
 </html>
